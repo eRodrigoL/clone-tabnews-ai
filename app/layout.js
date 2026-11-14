@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Nada aqui por enquanto",
-  description: "Nada aqui por enquanto",
+  title: "Em construção | Clone TabNews",
+  description: "Estamos reconstruindo o TabNews, um lugar para quem trabalha com tecnologia e busca conteúdos com valor concreto.",
 };
 
 export const viewport = {

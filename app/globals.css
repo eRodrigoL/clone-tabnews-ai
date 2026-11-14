@@ -44,3 +44,25 @@ h1 {
 }
 h1 span { display: block; color: #f5be32; }
 .line { width: 48px; height: 4px; margin: 2.5rem auto 0; background: #f5be32; }
+
+.description {
+  max-width: 640px;
+  margin: 2rem auto;
+  font-size: clamp(1rem, 2.4vw, 1.25rem);
+  line-height: 1.7;
+  color: #d1d2ca;
+  text-wrap: pretty;
+}
+.content-count { min-height: 2.4rem; margin: 0 0 1.5rem; line-height: 1.6; }
+.content-count strong { color: #f5be32; font-size: 1.5rem; }
+.official-link {
+  display: inline-block;
+  padding: .85rem 1.25rem;
+  border: 1px solid #f5be32;
+  border-radius: 6px;
+  color: #f5be32;
+  font-weight: 700;
+  text-decoration: none;
+}
+.official-link:hover { background: #f5be32; color: #222320; }
+.official-link:focus-visible { outline: 3px solid #f5f2e9; outline-offset: 5px; }
